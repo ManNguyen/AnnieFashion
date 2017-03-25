@@ -31,7 +31,7 @@ var BioComponent = (function () {
     ], BioComponent);
     return BioComponent;
 }());
-//# sourceMappingURL=G:/git/AnnieNguyenWebsite/src/bio.component.js.map
+//# sourceMappingURL=G:/git/annieNguyenwebsite/src/bio.component.js.map
 
 /***/ }),
 
@@ -66,7 +66,7 @@ var CollectionComponent = (function () {
     ], CollectionComponent);
     return CollectionComponent;
 }());
-//# sourceMappingURL=G:/git/AnnieNguyenWebsite/src/collection.component.js.map
+//# sourceMappingURL=G:/git/annieNguyenwebsite/src/collection.component.js.map
 
 /***/ }),
 
@@ -145,7 +145,7 @@ var HomeComponent = (function () {
     ], HomeComponent);
     return HomeComponent;
 }());
-//# sourceMappingURL=G:/git/AnnieNguyenWebsite/src/home.component.js.map
+//# sourceMappingURL=G:/git/annieNguyenwebsite/src/home.component.js.map
 
 /***/ }),
 
@@ -187,7 +187,7 @@ if (__WEBPACK_IMPORTED_MODULE_2__environments_environment__["a" /* environment *
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["a" /* enableProdMode */])();
 }
 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_3__app_app_module__["a" /* AppModule */]);
-//# sourceMappingURL=G:/git/AnnieNguyenWebsite/src/main.js.map
+//# sourceMappingURL=G:/git/annieNguyenwebsite/src/main.js.map
 
 /***/ }),
 
@@ -221,7 +221,7 @@ var AppComponent = (function () {
     ], AppComponent);
     return AppComponent;
 }());
-//# sourceMappingURL=G:/git/AnnieNguyenWebsite/src/app.component.js.map
+//# sourceMappingURL=G:/git/annieNguyenwebsite/src/app.component.js.map
 
 /***/ }),
 
@@ -284,7 +284,7 @@ var AppModule = (function () {
     ], AppModule);
     return AppModule;
 }());
-//# sourceMappingURL=G:/git/AnnieNguyenWebsite/src/app.module.js.map
+//# sourceMappingURL=G:/git/annieNguyenwebsite/src/app.module.js.map
 
 /***/ }),
 
@@ -315,7 +315,7 @@ var routes = [
 //   provideRouter(routes)
 // ];
 var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule */].forRoot(routes);
-//# sourceMappingURL=G:/git/AnnieNguyenWebsite/src/app.routes.js.map
+//# sourceMappingURL=G:/git/annieNguyenwebsite/src/app.routes.js.map
 
 /***/ }),
 
@@ -370,7 +370,7 @@ var CarouselComponent = (function () {
     ], CarouselComponent);
     return CarouselComponent;
 }());
-//# sourceMappingURL=G:/git/AnnieNguyenWebsite/src/carousel.component.js.map
+//# sourceMappingURL=G:/git/annieNguyenwebsite/src/carousel.component.js.map
 
 /***/ }),
 
@@ -386,7 +386,7 @@ var CarouselComponent = (function () {
 var environment = {
     production: false
 };
-//# sourceMappingURL=G:/git/AnnieNguyenWebsite/src/environment.js.map
+//# sourceMappingURL=G:/git/annieNguyenwebsite/src/environment.js.map
 
 /***/ }),
 
@@ -400,7 +400,7 @@ module.exports = ".navbar-default{\r\n    color: #eee;\r\n    background-color: 
 /***/ 706:
 /***/ (function(module, exports) {
 
-module.exports = ".bio-view{\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n}\r\n#BioContainer{\r\n  -webkit-box-flex: 2;\r\n      -ms-flex: 2;\r\n          flex: 2;\r\n  -webkit-animation: slideIn 1s ease-in-out forwards;\r\n          animation: slideIn 1s ease-in-out forwards;\r\n}\r\n#BioContainer> .container{\r\n  margin-top: 5%;\r\n  background-color: white;\r\n  border: 1px solid;\r\n  position: relative;\r\n}\r\n#BioContainer #avatar{\r\n  display: block;\r\n  width: 60%;\r\n  margin: 5px auto 15px auto;\r\n  border-radius: 50%;\r\n\r\n}\r\n#BioContainer p{\r\n    text-align: justify;\r\n}\r\n#ContactBar{\r\n  position: absolute;\r\n  top:20%;\r\n  left:100%;\r\n  padding: 0;\r\n  list-style: none;\r\n\r\n}\r\n#ContactBar a{\r\n  opacity: 0.6;\r\n  -webkit-transition: opacity 0.4s;\r\n  transition: opacity 0.4s;\r\n}\r\n#ContactBar a:hover{\r\n  opacity: 0.9;\r\n}\r\n\r\n#ContactBar img{\r\n  width: 40px;\r\n}\r\n#TextContainer{\r\n  -webkit-box-flex: 3;\r\n      -ms-flex: 3;\r\n          flex: 3;\r\n  padding-left: 60px;\r\n}\r\n"
+module.exports = ".bio-view{\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  z-index: -1;\r\n}\r\n#BioContainer{\r\n  -webkit-box-flex: 2;\r\n      -ms-flex: 2;\r\n          flex: 2;\r\n  -webkit-animation: slideIn 1s ease-in-out forwards;\r\n          animation: slideIn 1s ease-in-out forwards;\r\n  \r\n}\r\n#BioContainer> .container{\r\n  margin-top: 5%;\r\n  background-color: white;\r\n  border: 1px solid;\r\n  position: relative;\r\n}\r\n#BioContainer #avatar{\r\n  display: block;\r\n  width: 60%;\r\n  margin: 5px auto 15px auto;\r\n  border-radius: 50%;\r\n\r\n}\r\n#BioContainer p{\r\n    text-align: justify;\r\n}\r\n#ContactBar{\r\n  position: absolute;\r\n  top:20%;\r\n  left:100%;\r\n  padding: 0;\r\n  list-style: none;\r\n\r\n}\r\n#ContactBar a{\r\n  opacity: 0.6;\r\n  -webkit-transition: opacity 0.4s;\r\n  transition: opacity 0.4s;\r\n}\r\n#ContactBar a:hover{\r\n  opacity: 0.9;\r\n}\r\n\r\n#ContactBar img{\r\n  width: 40px;\r\n}\r\n#TextContainer{\r\n  -webkit-box-flex: 3;\r\n      -ms-flex: 3;\r\n          flex: 3;\r\n  padding-left: 60px;\r\n}\r\n"
 
 /***/ }),
 
@@ -414,21 +414,21 @@ module.exports = ".canvas{\r\n  height:100%;\r\n  overflow: hidden;\r\n  positio
 /***/ 708:
 /***/ (function(module, exports) {
 
-module.exports = ".home-view {\r\n  position: absolute;\r\n  top: 80px;\r\n  bottom: 0px;\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -ms-flex-wrap: wrap;\r\n      flex-wrap: wrap;\r\n}\r\n\r\n#Collection-List{\r\n  -webkit-box-flex: 1;\r\n      -ms-flex: 1;\r\n          flex: 1;\r\n}\r\n#Collection-List ul{\r\n  margin: 50px;\r\n  text-align: right;\r\n}\r\n.list-group-item a{\r\n   color: black;\r\n    font-size: 16px;\r\n}\r\n.list-group-item a:hover{\r\n  cursor: pointer;\r\n}\r\n#Collection{\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -webkit-box-flex: 3;\r\n        -ms-flex: 3;\r\n            flex: 3;\r\n}\r\n#TextContainer{\r\n  -webkit-box-flex: 1;\r\n      -ms-flex: 1;\r\n          flex: 1;\r\n  text-align: right;\r\n}\r\n#TextContainer h1{\r\n  opacity: 0;\r\n  -webkit-animation: fadeIn 2s forwards;\r\n          animation: fadeIn 2s forwards;\r\n}\r\n#TextContainer p{\r\n  text-align: justify;\r\n  opacity: 0;\r\n  -webkit-animation: fadeIn 1s 0.5s forwards;\r\n          animation: fadeIn 1s 0.5s forwards;\r\n}\r\n#ImageContainer {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-orient: vertical;\r\n  -webkit-box-direction: normal;\r\n      -ms-flex-direction: column;\r\n          flex-direction: column;\r\n  -webkit-box-flex: 2;\r\n      -ms-flex: 2;\r\n          flex: 2;\r\n  text-align: center;\r\n}\r\n#ImageContainer>.component {\r\n  -webkit-box-flex: 1;\r\n      -ms-flex: 1;\r\n          flex: 1;\r\n}\r\n"
+module.exports = ".home-view {\r\n  position: absolute;\r\n  top: 80px;\r\n  bottom: 0px;\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -ms-flex-wrap: wrap;\r\n      flex-wrap: wrap;\r\n  z-index: -1;\r\n}\r\n\r\n#Collection-List{\r\n  -webkit-box-flex: 1;\r\n      -ms-flex: 1;\r\n          flex: 1;\r\n}\r\n#Collection-List ul{\r\n  margin: 50px;\r\n  text-align: right;\r\n}\r\n.list-group-item a{\r\n   color: black;\r\n    font-size: 16px;\r\n}\r\n.list-group-item a:hover{\r\n  cursor: pointer;\r\n}\r\n#Collection{\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -webkit-box-flex: 3;\r\n        -ms-flex: 3;\r\n            flex: 3;\r\n}\r\n#TextContainer{\r\n  -webkit-box-flex: 1;\r\n      -ms-flex: 1;\r\n          flex: 1;\r\n  text-align: right;\r\n}\r\n#TextContainer h1{\r\n  opacity: 0;\r\n  -webkit-animation: fadeIn 2s forwards;\r\n          animation: fadeIn 2s forwards;\r\n}\r\n#TextContainer p{\r\n  text-align: justify;\r\n  opacity: 0;\r\n  -webkit-animation: fadeIn 1s 0.5s forwards;\r\n          animation: fadeIn 1s 0.5s forwards;\r\n}\r\n#ImageContainer {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-orient: vertical;\r\n  -webkit-box-direction: normal;\r\n      -ms-flex-direction: column;\r\n          flex-direction: column;\r\n  -webkit-box-flex: 2;\r\n      -ms-flex: 2;\r\n          flex: 2;\r\n  text-align: center;\r\n}\r\n#ImageContainer>.component {\r\n  -webkit-box-flex: 1;\r\n      -ms-flex: 1;\r\n          flex: 1;\r\n}\r\n"
 
 /***/ }),
 
 /***/ 709:
 /***/ (function(module, exports) {
 
-module.exports = "#frame {\r\n  width: 100%;\r\n  overflow-x: hidden;\r\n  position: absolute;\r\n  bottom: 0;\r\n  top:80px;\r\n}\r\n#frame img{\r\n  box-shadow: 0px 0px 24px -3px black;\r\n  margin: auto;\r\n  display: block;\r\n  position: absolute;\r\n  height: 100%;\r\n  left:50%;\r\n  -webkit-transform:translate(-50%);\r\n          transform:translate(-50%);\r\n}\r\n#frame img.active{\r\n  -webkit-animation: fadeIn 1s forwards;\r\n          animation: fadeIn 1s forwards;\r\n}\r\n#frame img.inactive{\r\n  -webkit-animation: fadeOut 1s forwards;\r\n          animation: fadeOut 1s forwards;\r\n}\r\n#btn-go-left,#btn-go-right{\r\n  font-size: 5vh;\r\n  opacity: 0.4;\r\n  position:absolute;\r\n  top:45%;\r\n}\r\n#btn-go-left:hover,#btn-go-right:hover{\r\n  opacity: 0.8;\r\n}\r\n#btn-go-left{\r\n  left: 5%;\r\n  -webkit-animation: wiggle 5s ease-in-out infinite;\r\n          animation: wiggle 5s ease-in-out infinite;\r\n}\r\n#btn-go-right{\r\n  right:5%;\r\n  -webkit-animation: wiggle 5s 2.5s ease-in-out infinite;\r\n          animation: wiggle 5s 2.5s ease-in-out infinite;\r\n}\r\n#btn-go-left a,#btn-go-right a{\r\n    color: black;\r\n    -webkit-transition: opacity 2s;\r\n    transition: opacity 2s;\r\n}\r\n"
+module.exports = "#frame {\r\n  width: 100%;\r\n  overflow-x: hidden;\r\n  position: absolute;\r\n  bottom: 0;\r\n  top:80px;\r\n  z-index: -1;\r\n}\r\n#frame img{\r\n  box-shadow: 0px 0px 24px -3px black;\r\n  margin: auto;\r\n  display: block;\r\n  position: absolute;\r\n  height: 100%;\r\n  left:50%;\r\n  -webkit-transform:translate(-50%);\r\n          transform:translate(-50%);\r\n}\r\n#frame img.active{\r\n  -webkit-animation: fadeIn 1s forwards;\r\n          animation: fadeIn 1s forwards;\r\n}\r\n#frame img.inactive{\r\n  -webkit-animation: fadeOut 1s forwards;\r\n          animation: fadeOut 1s forwards;\r\n}\r\n#btn-go-left,#btn-go-right{\r\n  font-size: 5vh;\r\n  opacity: 0.4;\r\n  position:absolute;\r\n  top:45%;\r\n}\r\n#btn-go-left:hover,#btn-go-right:hover{\r\n  opacity: 0.8;\r\n}\r\n#btn-go-left{\r\n  left: 5%;\r\n  -webkit-animation: wiggle 5s ease-in-out infinite;\r\n          animation: wiggle 5s ease-in-out infinite;\r\n}\r\n#btn-go-right{\r\n  right:5%;\r\n  -webkit-animation: wiggle 5s 2.5s ease-in-out infinite;\r\n          animation: wiggle 5s 2.5s ease-in-out infinite;\r\n}\r\n#btn-go-left a,#btn-go-right a{\r\n    color: black;\r\n    -webkit-transition: opacity 2s;\r\n    transition: opacity 2s;\r\n}\r\n"
 
 /***/ }),
 
 /***/ 710:
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-default\" style=\"margin-bottom: 0;\">\r\n  <div class=\"container-fluid\">\r\n    <!-- Brand and toggle get grouped for better mobile display -->\r\n    <div class=\"navbar-header\">\r\n      <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\" aria-expanded=\"false\">\r\n        <span class=\"sr-only\">Toggle navigation</span>\r\n        <span class=\"icon-bar\"></span>\r\n        <span class=\"icon-bar\"></span>\r\n        <span class=\"icon-bar\"></span>\r\n      </button>\r\n      <a class=\"navbar-brand\" [routerLink]=\"['/home']\"><img src=\"../assets/logo.svg\" height=\"100\"></a>\r\n    </div>\r\n\r\n    <!-- Collect the nav links, forms, and other content for toggling -->\r\n    <div class=\"collapse navbar-collapse navbar-left\" id=\"bs-example-navbar-collapse-1\">\r\n      <ul class=\"nav navbar-nav\">\r\n        <li class=\"nav-item\"><a [routerLink]=\"['/home']\">Home</a></li>\r\n        <li class=\"nav-item\"><a [routerLink]=\"['/bio']\">Bio</a></li>\r\n        <li class=\"nav-item\"><a [routerLink]=\"['/collection']\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Collections</a>\r\n          <!-- <ul class=\"dropdown-menu\">\r\n            <li><a href=\"#\">Action</a></li>\r\n            <li><a href=\"#\">Another action</a></li>\r\n            <li><a href=\"#\">Something else here</a></li>\r\n            <li role=\"separator\" class=\"divider\"></li>\r\n            <li><a href=\"#\">Separated link</a></li>\r\n          </ul> -->\r\n        </li>\r\n\r\n      </ul>\r\n      <ul class=\"nav navbar-nav\" style=\"margin-left: 50px;\">\r\n\r\n        <li class=\"media-icon\">\r\n          <a href=\"http://Www.facebook.com/annienguyenfashion\"><img src=\"../assets/CircleGrey/Facebook.svg\" /></a>\r\n        </li>\r\n        <li class=\"media-icon\">\r\n          <a href=\"https://www.instagram.com/annienguyenfashion/\"><img src=\"../assets/CircleGrey/Instagram.svg\" /></a>\r\n        </li>\r\n      </ul>\r\n    </div>\r\n    <!-- /.navbar-collapse -->\r\n  </div>\r\n  <!-- /.container-fluid -->\r\n</nav>\r\n<router-outlet></router-outlet>\r\n"
+module.exports = "<nav class=\"navbar navbar-default\" style=\"margin-bottom: 0;\">\r\n  <div class=\"container-fluid\">\r\n    <!-- Brand and toggle get grouped for better mobile display -->\r\n    <div class=\"navbar-header\">\r\n      <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\" aria-expanded=\"false\">\r\n        <span class=\"sr-only\">Toggle navigation</span>\r\n        <span class=\"icon-bar\"></span>\r\n        <span class=\"icon-bar\"></span>\r\n        <span class=\"icon-bar\"></span>\r\n      </button>\r\n      <a class=\"navbar-brand\" [routerLink]=\"['/home']\"><img src=\"../assets/logo.svg\" height=\"100\"></a>\r\n    </div>\r\n    <div class=\"navbar-toggle collapsed\" style=\"position: absolute;top: 0px; border: 0px;      left: 0px;   padding: 0px;\">\r\n      <ul class=\"list-unstyled\">\r\n        <li class=\"media-icon\">\r\n          <a href=\"http://Www.facebook.com/annienguyenfashion\" style=\"padding:0px\"><img src=\"../../assets/social_media/Facebook.svg\" /></a>\r\n        </li>\r\n        <li class=\"media-icon\">\r\n          <a href=\"https://www.instagram.com/annienguyenfashion/\" style=\"padding:0px\"><img src=\"../../assets/social_media/Instagram.svg\" /></a>\r\n        </li>\r\n      </ul>\r\n    </div>\r\n\r\n    <!-- Collect the nav links, forms, and other content for toggling -->\r\n    <div class=\"collapse navbar-collapse navbar-left\" id=\"bs-example-navbar-collapse-1\" style=\"background-color:white\">\r\n      <ul class=\"nav navbar-nav\">\r\n        <li class=\"nav-item\"><a [routerLink]=\"['/home']\">Home</a></li>\r\n        <li class=\"nav-item\"><a [routerLink]=\"['/bio']\">Bio</a></li>\r\n        <li class=\"nav-item\"><a [routerLink]=\"['/collection']\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Collections</a>\r\n          <!-- <ul class=\"dropdown-menu\">\r\n            <li><a href=\"#\">Action</a></li>\r\n            <li><a href=\"#\">Another action</a></li>\r\n            <li><a href=\"#\">Something else here</a></li>\r\n            <li role=\"separator\" class=\"divider\"></li>\r\n            <li><a href=\"#\">Separated link</a></li>\r\n          </ul> -->\r\n        </li>\r\n\r\n      </ul>\r\n      <ul class=\"nav navbar-nav collapse\" style=\"margin-left: 50px;\">\r\n\r\n        <li class=\"media-icon\">\r\n          <a href=\"http://Www.facebook.com/annienguyenfashion\"><img src=\"../assets/CircleGrey/Facebook.svg\" /></a>\r\n        </li>\r\n        <li class=\"media-icon\">\r\n          <a href=\"https://www.instagram.com/annienguyenfashion/\"><img src=\"../assets/CircleGrey/Instagram.svg\" /></a>\r\n        </li>\r\n      </ul>\r\n    </div>\r\n    <!-- /.navbar-collapse -->\r\n  </div>\r\n  <!-- /.container-fluid -->\r\n</nav>\r\n<router-outlet></router-outlet>\r\n"
 
 /***/ }),
 
